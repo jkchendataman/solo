@@ -7,7 +7,7 @@ build:
 publish:
   upload:
     image: registry:5000/library/drone-upload:latest
-    server: http://192.168.99.101:8900
+    server: http://192.168.99.103:8900
     target_file: target/solo.war
     bapp_id: 1
     yearmonth_id: 1
